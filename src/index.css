@@ -44,11 +44,12 @@
 .search-bar {
   padding: 10px;
   border-radius: 10px;
-  border: 0.5px solid black;
+  border: 1px solid black;
 }
 
 @media (max-width: 750px) {
   .container {
+    margin: 0 auto;
     border: 3px solid black;
     border-radius: 10px;
     max-width: 90%;
@@ -66,16 +67,24 @@
   }
 
   .search-weather-container {
+    margin: 0 auto;
     display: flex;
-    gap: 10px;
+    gap: 2em;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
 
   .search-bar {
-    max-width: 60%;
+    max-width: 80%;
     border-radius: 10px;
-    border: 0.5px solid black;
+    border: 1px solid black;
+  }
+
+  .city-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
   }
 }
