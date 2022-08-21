@@ -25,6 +25,12 @@
   display: flex;
   flex-direction: row;
 }
+.city-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 .header-text {
   display: flex;
@@ -44,7 +50,7 @@
 .search-bar {
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 @media (max-width: 750px) {
@@ -78,7 +84,7 @@
   .search-bar {
     max-width: 80%;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 2px solid black;
   }
 
   .city-container {
