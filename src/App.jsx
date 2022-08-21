@@ -36,8 +36,8 @@ const App = () => {
             placeholder="City (e.g London)"
             className="search-bar"
           />
-          {city && <City city={city} />}
         </div>
+        {city && <City city={city} />}
       </div>
     </div>
   );

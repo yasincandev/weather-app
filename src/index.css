@@ -46,3 +46,36 @@
   border-radius: 10px;
   border: 0.5px solid black;
 }
+
+@media (max-width: 750px) {
+  .container {
+    border: 3px solid black;
+    border-radius: 10px;
+    max-width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-text {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-weather-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .search-bar {
+    max-width: 60%;
+    border-radius: 10px;
+    border: 0.5px solid black;
+  }
+}
